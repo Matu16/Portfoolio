@@ -4,50 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
 </head>
-<body>
- 
-    <header>
+<body class="bg-green-200">
 
-        <div class="header_alus">
-            <div class="header_nimi"><h1>Marten Saar</h1></div>
-            <div class="header_nimi"><h2>Veebiarendaja</h2></div>
+    <!-- Header -->
+    <div class="flex flex-row w-full h-20 bg-emerald-400 justify-between">
+        <div class="flex flex-col">
+            <h1 class="text-xl ml-2 mt-2 lg:text-3xl lg:ml-6">Marten Saar</h1>
+            <h2 class="text-base ml-2 lg:text-xl lg:ml-6">Noorem Tarkavara</h2>
         </div>
 
-        <div class="header2_alus">
-            <div class="nav_btn"><a href="index.html">Avaleht</a></div>
-            <div class="nav_btn"><a href="#">Projektid</a></div>
-            <div class="nav_btn"><a href="#">CV</a></div>
+        <div class="flex text-center">
+            <h1 class="text-3xl mr-1 mt-3 lg:text-5xl">Portfoolio</h1>
         </div>
 
-    </header>
-    
-    <div class="sisu_alus">
-
-        <div class="sisu_pealkiri"><h1>Minust</h1></div>
-        <div class="sisu_tekst"><h2>Ma olen 16 aastane Kuressaare Ametikooli esimese kursuse õpilane, Noorem Tarkvaraarendaja erialal.</h3></div>
-        <div class="sisu_tekst"><h2>Hobidena mängin ma arvutimänge, käin rallidel ning veedan aega looduses.</h3></div>
+        <div class="flex flex-col">
+            <a class="text-xl mr-6 mt-2 lg:text-2xl lg:mr-12" href="">•Avaleht</a>
+            <a class="text-xl lg:text-2xl" href="">•Projektid</a>
+        </div>
 
     </div>
 
-    <footer>
+    <!-- Sisu -->
+    <div class="flex flex-col">
+        <h1>Kes ma olen</h1>
 
-        <div class="footer_alus">
+        <h1>Minu nimi on Marten Saar, olen 16 aastane, elan Saaremaal, õpin Kuressaare Ametikoolis esimese kursuse õpilasena noorem tarkvaraarendaja erialal.</h1>
+        <h1></h1>
 
-            <div class="footer_git">
-                <a href="https://github.com/Matu16"><img src="GitHub-Mark/PNG/GitHub-Mark-Light-64px.png" alt=""></a>
-                <h1>Matu16 <br> Isiklik</h1>
-            </div>
+    </div>
 
-            <div class="footer_git2">
-                <a href="https://github.com/Matu15"><img src="GitHub-Mark/PNG/GitHub-Mark-Light-64px.png" alt=""></a>
-                <h1>Matu15 <br> Koolitööd</h1>
-            </div>
-        </div>
-
-    </footer>
 
 </body>
 </html>
